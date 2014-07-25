@@ -1,0 +1,11 @@
+<?php
+
+require('user.php');
+
+class UserTest extends PHPUnit_Framework_TestCase {
+	public function testInstanciation(){
+		$user = new User('robert','jean-louis',73);
+		$this->assertTrue($user != null, '[[[ Instanciation User A Echoué... ]]]');
+		unset($user);
+	}
+}
