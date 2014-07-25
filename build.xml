@@ -18,15 +18,11 @@
 		<apply executable="php" failonerror="true">
 			<arg value="-l" />
 
-			<fileset dir="${basedir}/src">
+			<fileset dir="${basedir}/entity">
 				<include name="**/*.php" />
 				<modified />
 			</fileset>
 
-			<fileset dir="${basedir}/tests">
-				<include name="**/*.php" />
-				<modified />
-			</fileset>
 		</apply>
 	</target>
 	<target name="phpunit" description="Run unit tests with PHPUnit">
