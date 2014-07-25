@@ -18,10 +18,6 @@
 
 			<directory suffix=".php">entity</directory>
 
-			<exclude>
-
-				<file>src/bootstrap.php</file>
-			</exclude>
 		</whitelist>
 
 	</filter>

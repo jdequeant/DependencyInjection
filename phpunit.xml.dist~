@@ -16,7 +16,7 @@
 
 		<whitelist addUncoveredFilesFromWhitelist="true">
 
-			<directory suffix=".php">src</directory>
+			<directory suffix=".php">entity</directory>
 
 			<exclude>
 
