@@ -1,0 +1,4 @@
+<logging>
+	<log type="coverage-php" target="entity/*test.php" />
+	<log type="junit" target="entity/junit.xml" logIncompleteSkipped="false" />
+</logging>
