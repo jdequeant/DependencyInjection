@@ -1,11 +1,9 @@
 <?php
-namespace Entity;
-
 require('user.php');
 
-class UserTest extends PHPUnit_Framework_TestCase {
+class UserTest extends \PHPUnit_Framework_TestCase {
 	public function testInstanciation(){
-		$user = new \User('robert','jean-louis',73);
+		$user = new Entity\User('robert','jean-louis',73);
 		$this->assertTrue($user != null, '[[[ Instanciation User A Echoué... ]]]');
 		unset($user);
 	}
